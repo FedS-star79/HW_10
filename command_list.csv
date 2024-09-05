@@ -1,0 +1,57 @@
+    1  man ls
+    2  help ls
+    3  ls
+    4  LS
+    5  ls
+    6  git clon --bare
+    7  git clon --bare https://github.com/FedS-star79/HW_10.git
+    8  git clon  https://github.com/FedS-star79/HW_10.git
+    9  mkdir TestF1
+   10  ls
+   11  mkdir TestF2
+   12  mkdir TestF3
+   13  cp https://github.com/FedS-star79/HW_10.git TestF1
+   14  cp https://github.com/FedS-star79/HW_10.git TestF1
+   15  git clone https://github.com/FedS-star79/HW_10.git ./
+   16  pwd
+   17  dit clone https://github.com/FedS-star79/HW_10.git/c/Users/HP Pavilion/Desktop/lesson32
+   18  git clone https://github.com/FedS-star79/HW_10.git/c/Users/HP Pavilion/Desktop/lesson32
+   19  git clone https://github.com/FedS-star79/HW_10.git/c/Users/HP Pavilion/Desktop/lesson32 ./
+   20   
+   21  git clone https://github.com/FedS-star79/HW_10.git -- repo /c/Users/HP Pavilion/Desktop/lesson32 ./
+   22  git clone https://github.com/FedS-star79/HW_10.git -- repo /c/Users/HP Pavilion/Desktop/lesson32
+   23   git clone https://github.com/FedS-star79/HW_10.git -- repo /c/Users/HP Pavilion/Desktop/lesson32
+   24   git clone https://github.com/FedS-star79/HW_10.git -- /c/Users/HP Pavilion/Desktop/lesson32
+   25  clear
+   26  pwd
+   27  git config --global user.name "Sveta Fedorchuk"
+   28  git config --global user.email fdrchk9@gmail.com 
+   29  git clone https://github.com/FedS-star79/HW_10.git
+   30  cd HW_10
+   31  touch text_ignore.txt
+   32  vim .gitignore
+   33  vim .gitignore
+   34  git status
+   35  git add text_ignore.txt
+   36  git status
+   37  git add .gitignore
+   38  git status
+   39  git commit -m "text_ignore.txt file added"
+   40  touch main_test.txt
+   41  git add main_test.txt
+   42  git commit -m "main_test.txt file added"
+   43  git checkout -b develop
+   44  git branch
+   45  touch develop_test.txt
+   46  git add develop
+   47  git add develop_test.txt
+   48  git commit -m "deveiop_test.txt file added"
+   49  vim develop_test.txt
+   50  git status
+   51  git add develop_test.txt
+   52  git commit -m "develop_test.txt file added"
+   53  git commit -m "develop_test.txt updated"
+   54  git checkout main
+   55  git merge develop
+   56  git log
+   57  history > command_list.csv
